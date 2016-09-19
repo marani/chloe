@@ -5,14 +5,17 @@ First clond the project.
 `git clone https://github.com/marani/chloe`
 
 To run from build result
-```cd build
+```
+cd build
 python SimpleHTTPServer -m <port>
 ```
+
 and go to locahost:<port>
 or pushstate-server can be used
 
 To build & debug
-```npm i -g create-react-app react-scripts
+```
+npm i -g create-react-app react-scripts
 npm run start
 npm run build
 ```
