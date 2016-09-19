@@ -1,7 +1,5 @@
 
-
-Solution for Zendesk Frontend Test. Using `react` `redux` & `react-dnd`.
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+Zendesk Frontend Test 2 Solution. Using `react` `redux` & `react-dnd`, `create-react-app`.
 
 =====
 
