@@ -1,0 +1,17 @@
+.project-counter {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.project-counter .number {
+  text-align: center;
+}
+
+.project-counter .label {
+  padding-top: 4px;
+}

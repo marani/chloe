@@ -1,0 +1,28 @@
+.project-list {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: #ddd;
+  border-radius: 4px;
+}
+
+.project-list:last-child {
+  margin-right: 0;
+}
+
+.list-head {
+  position: relative;
+  padding: 8px;
+}
+
+.list-title {
+  line-height: 58px;
+  padding: 0;
+  padding-left: 8px;
+  margin: 0;
+}
+
+.list-content {
+
+}
