@@ -12,7 +12,6 @@ let ProjectAdder = ({ dispatch }) => {
         ref={node => { input = node; }}
         type="text"
         onKeyDown={(e) => {
-          console.log('Im clicked!');
           if (e.which === 13) {
             if (input.value.trim()) {
               dispatch(addProject({

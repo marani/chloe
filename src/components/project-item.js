@@ -74,10 +74,9 @@ const cardTarget = {
 class ProjectItem extends Component {
   render() {
     const {
-      project, allowDrag, isDragging, didDrop, canDrag, connectDragSource, connectDropTarget
+      project, allowDrag, isDragging, connectDragSource, connectDropTarget
     } = this.props;
-    const opacity = canDrag ? 1 : 0;
-    console.log(isDragging, didDrop);
+    const opacity = isDragging ? 0 : 1;
     if (allowDrag) {
       return (
         connectDragSource(connectDropTarget(
